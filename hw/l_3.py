@@ -6,7 +6,7 @@ from requests import Response
 class TestHW3:
     @pytest.mark.skip('#1')
     def test_phrase(self):
-        phrase = 'govno'
+        phrase = 'sraca'
         assert len(phrase) < 15, "Длина не меньше 15 символов"
 
     @pytest.mark.skip('#2')
